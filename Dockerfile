@@ -14,7 +14,6 @@ RUN useradd -m android
 USER android
 
 RUN mkdir -p $ANDROID_SDK_ROOT
-VOLUME $ANDROID_SDK_ROOT
 WORKDIR $ANDROID_SDK_ROOT
 
 # Make get and extract Android SDK
