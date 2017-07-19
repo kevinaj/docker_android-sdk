@@ -7,7 +7,7 @@ RUN apt-get update \
   && apt-get clean
 
 
-ENV ANDROID_SDK_ROOT=~/Android/Sdk
+ENV ANDROID_SDK_ROOT=/home/android/Android/Sdk
 
 
 RUN useradd -m android
